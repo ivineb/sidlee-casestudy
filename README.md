@@ -3,4 +3,4 @@ Case Study of a Design System for Web Development
 
 ## Author
 
-Ivine Badran
+Project Code: Ivine Badran Source Design: <a href="https://sidlee.com/en">Sidlee</a>
