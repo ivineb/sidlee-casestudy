@@ -40,9 +40,18 @@ h2, h3 {
     font-weight: 400;
 }
 
+.button {
+    font-size: 0.6em;
+}
+
+.action-button {
+    margin:  0;
+}
 
 a {
     color: var(--color-black);
+    text-decoration: none;
+    border-bottom: 0.1em solid var(--color-black);
 }
 
 img {
@@ -119,8 +128,24 @@ ul { padding: 0;
     display: flex; 
 } 
 
-.main-header__list a {
-    text-decoration: none;
-  }
+/**
+* .cover-section
+*/
 
- 
+.cover-section__title {
+    margin-bottom: 0;
+}
+
+.cover-section__wrapper {
+    display: flex;
+    flex-direction: row;
+}
+
+.cover-section__text {
+    padding: 3em;
+}
+.what-if {
+    display: block;
+  
+}
+
