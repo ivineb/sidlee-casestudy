@@ -25,7 +25,7 @@ html {
   *  Typography
   */
 
-  body {
+body {
     font-family: var(--font-sans-serif);
     margin: 2em;
     line-height: 1.6;
@@ -42,11 +42,7 @@ h2, h3 {
     font-weight: 400;
 }
 
-h2 {
-    background: var(--color-pink);
-    display: inline-block;
-    padding: 0.3em;
-}
+
 a {
     color: var(--color-black);
 }
@@ -71,4 +67,12 @@ img {
 
 .component__code {
     border: 1px solid var(--color-pink);
+    padding-left: 2em;
 }
+
+.component__code h2 {
+    background: var(--color-pink);
+    display: inline-block;
+    padding: 0.2em;
+}
+
