@@ -7,8 +7,6 @@
     --font-sans-serif: 'Heebo', sans-serif;
     }
 
-
-
 @font-face {
     font-family: Sangbleu;
     src: url(../fonts/SangBleuEmpire-Regular-WebTrial.woff);
@@ -50,6 +48,17 @@ a {
 img {
     max-width: 100%;
     display: block;
+}
+.sid {
+    font-family: var(--font-sans-serif);
+    font-weight: 600;
+    font-size: 1.3em;
+}
+
+.lee {
+    font-family: var(--font-serif);
+    font-size: 1.3em;
+    font-weight: bold;
 }
 
 /**
