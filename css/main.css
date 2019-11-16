@@ -112,7 +112,7 @@ img {
 .main-header__list li{
     list-style: none;
     justify-content: center;
-    margin: 1em; 
+    margin: 1.2em; 
 }
 
 ul { padding: 0; 
@@ -122,3 +122,5 @@ ul { padding: 0;
 .main-header__list a {
     text-decoration: none;
   }
+
+ 
