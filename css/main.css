@@ -49,6 +49,8 @@ img {
     max-width: 100%;
     display: block;
 }
+
+
 .sid {
     font-family: var(--font-sans-serif);
     font-weight: 600;
@@ -80,8 +82,14 @@ img {
 }
 
 .component__code h2 {
-    background: var(--color-pink);
     display: inline-block;
     padding: 0.2em;
+}
+
+.hero__title {
+    font-family: var(--font-serif);
+    font-weight: bold;
+    font-size: 2.2em;
+    line-height: 1.2;
 }
 
