@@ -62,6 +62,10 @@ img {
     display: block;
 }
 
+.block {
+    display: block;
+}
+
 
 .sid {
     font-family: var(--font-sans-serif);
@@ -121,7 +125,7 @@ img {
     display: flex;
 }
 
-.main-header__list li{
+.main-header__list li {
     list-style: none;
     justify-content: center;
     margin: 1.2em; 
@@ -147,7 +151,5 @@ ul { padding: 0;
 .cover-section__text {
     padding: 3em;
 }
-.block {
-    display: block;
-}
+
 
