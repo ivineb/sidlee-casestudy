@@ -40,6 +40,16 @@ h2, h3 {
     font-weight: 400;
 }
 
+li {
+    list-style: none;
+}
+
+.copyright {
+    color: var(--color-white);
+    
+    border-bottom: none;
+}
+
 .button {
     font-size: 0.6em;
     border-bottom: 0.1em solid var(--color-black);
@@ -156,4 +166,46 @@ ul { padding: 0;
     padding: 0;
 }
 
+/**
+* .page-footer
+*/
 
+.page-footer {
+    font-size: 1.3em;
+    background: var(--color-black);
+}
+.page-footer a {
+    text-decoration: none;
+    color: var(--color-white);
+}
+.page-footer__links {
+    display: flex;
+    justify-content: space-between;
+}
+/**
+* .cities
+*/
+.page-footer__cities {
+    margin-left: 4em;
+}
+.locations-list li {
+    margin-right: 0.4em;
+    font-family: var(--font-serif);
+}
+/**
+* .social-legal
+*/
+.page-footer__social, .page-footer__legal {
+    font-size: 0.5em;
+    margin-right: 9em;
+    align-self: center;
+}
+.social-list li, .legal-list li {
+    margin-left: 0.8em;
+    border-bottom: 0.1em solid var(--color-white); 
+}
+.page-footer__legal {
+    display: flex;
+    justify-content: flex-end;
+
+}
