@@ -93,3 +93,32 @@ img {
     line-height: 1.2;
 }
 
+/**
+* .main-header
+*/
+
+.main-header__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 5rem;
+}
+
+
+.main-header__panel {
+    display: flex;
+}
+
+.main-header__list li{
+    list-style: none;
+    justify-content: center;
+    margin: 1em; 
+}
+
+ul { padding: 0; 
+    display: flex; 
+} 
+
+.main-header__list a {
+    text-decoration: none;
+  }
