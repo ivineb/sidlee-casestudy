@@ -1,6 +1,7 @@
 :root {
     --color-white: #fff;
     --color-black: #1a1a1a;
+    --color-gray: #ccc;
     --color-pink: #ebceca;
     --font-serif: 'Sangbleu', serif;
     --font-sans-serif: 'Heebo', sans-serif;
@@ -10,7 +11,7 @@
 
 @font-face {
     font-family: Sangbleu;
-    src: url(../fonts/SangBleuKingdom-Regular-WebTrial.woff);
+    src: url(../fonts/SangBleuEmpire-Regular-WebTrial.woff);
 }
 
 html {
@@ -20,13 +21,32 @@ html {
     box-sizing: inherit;
   }
 
+  /**
+  *  Typography
+  */
+
   body {
     font-family: var(--font-sans-serif);
     margin: 2em;
     line-height: 1.6;
     font-size: 20px;
+    font-weight: 400;
 }
 
+h1 {
+    font-family: var(--font-serif);
+    line-height: 1.2;
+}
+
+h2, h3 {
+    font-weight: 400;
+}
+
+h2 {
+    background: var(--color-pink);
+    display: inline-block;
+    padding: 0.3em;
+}
 a {
     color: var(--color-black);
 }
@@ -36,6 +56,19 @@ img {
     display: block;
 }
 
-.component__img {
+/**
+* .component
+*/
+
+.component img {
     max-width: initial;
+}
+
+.component__img {
+    border: 1px solid var(--color-gray);
+    overflow-x: auto;
+}
+
+.component__code {
+    border: 1px solid var(--color-pink);
 }
