@@ -54,6 +54,7 @@ a {
     border-bottom: 0.1em solid var(--color-black);
 }
 
+
 img {
     max-width: 100%;
     display: block;
@@ -146,6 +147,5 @@ ul { padding: 0;
 }
 .what-if {
     display: block;
-  
 }
 
