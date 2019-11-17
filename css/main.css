@@ -203,3 +203,9 @@ ul {
     justify-content: flex-end; 
 }
 
+.legal-list,
+.social-list,
+.locations-list {
+  margin: 0;
+  line-height: 1.2;
+}
