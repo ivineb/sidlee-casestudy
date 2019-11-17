@@ -141,7 +141,8 @@ img {
     margin: 1.2em; 
 }
 
-ul { padding: 0; 
+ul { 
+    padding: 0; 
     display: flex; 
 } 
 
@@ -173,6 +174,7 @@ ul { padding: 0;
 .page-footer {
     font-size: 1.3em;
     background: var(--color-black);
+    padding: 0.7em;
 }
 .page-footer a {
     text-decoration: none;
@@ -189,7 +191,7 @@ ul { padding: 0;
     margin-left: 4em;
 }
 .locations-list li {
-    margin-right: 0.4em;
+    padding: 0.6em;
     font-family: var(--font-serif);
 }
 /**
@@ -201,7 +203,7 @@ ul { padding: 0;
     align-self: center;
 }
 .social-list li, .legal-list li {
-    margin-left: 0.8em;
+    margin-left: 0.9em;
     border-bottom: 0.1em solid var(--color-white); 
 }
 .page-footer__legal {
