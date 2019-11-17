@@ -30,26 +30,20 @@ body {
     font-size: 20px;
     font-weight: 400;
 }
-
 h1 {
     font-family: var(--font-serif);
     line-height: 1.2;
 }
-
 h2, h3 {
     font-weight: 400;
 }
-
 li {
     list-style: none;
 }
-
 .copyright {
     color: var(--color-white);
-    
     border-bottom: none;
 }
-
 .button {
     font-size: 0.6em;
     border-bottom: 0.1em solid var(--color-black);
@@ -57,38 +51,30 @@ li {
 .button--bigger {
     font-size: 1em;
 }
-
 .action-button {
     margin: 0;
 }
-
 a {
     color: var(--color-black);
     text-decoration: none;
 }
-
 img {
     max-width: 100%;
     display: block;
 }
-
 .block {
     display: block;
 }
-
-
 .sid {
     font-family: var(--font-sans-serif);
     font-weight: 600;
     font-size: 1.3em;
 }
-
 .lee {
     font-family: var(--font-serif);
     font-size: 1.3em;
     font-weight: bold;
 }
-
 /**
 * .component
 */
@@ -97,38 +83,35 @@ img {
     margin: 4em;
 }
 .component__title {
-    background: var(--color-pink);
+    background: var(--color-black);
+    color: var(--color-white);
     padding: 0.4em;
     text-transform: uppercase;
-    
+    margin-bottom: 0;
 }
-
 .component__title--sub {
-    background: var(--color-gray);
+    background: var(--color-pink);
+    color: var(--color-black);
     font-weight: lighter;
     text-transform: lowercase;
+    margin-top: 0;
 }
-
 .component img {
     max-width: initial;
 }
-
 .component__img {
     border: 1px solid var(--color-gray);
     overflow-x: auto;
 }
-
 .component__code {
     border: 1px solid var(--color-pink);
-    margin-bottom: 6em;
+    margin-bottom: 4em;
     padding-bottom: 0.5em;
 }
-
 .component__code h2 {
     display: inline-block;
     padding: 0.2em;
 }
-
 .hero__title {
     font-family: var(--font-serif);
     font-weight: bold;
@@ -146,23 +129,18 @@ img {
     justify-content: space-between;
     padding-right: 5rem;
 }
-
-
 .main-header__panel {
     display: flex;
 }
-
 .main-header__list li {
     list-style: none;
     justify-content: center;
     margin: 1.2em; 
 }
-
 ul { 
     padding: 0; 
     display: flex; 
 } 
-
 /**
 * .cover-section
 */
@@ -170,16 +148,13 @@ ul {
 .cover-section__title {
     margin-bottom: 0;
 }
-
 .cover-section__wrapper {
     display: flex;
     flex-direction: row;
 }
-
 .cover-section__text {
     padding: 3em;
 }
-
 .cover-section__text--solo {
     padding: 0;
 }
@@ -225,8 +200,6 @@ ul {
 }
 .page-footer__legal {
     display: flex;
-    justify-content: flex-end;
-    
-
+    justify-content: flex-end; 
 }
 
