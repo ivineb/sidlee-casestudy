@@ -98,13 +98,15 @@ img {
 }
 .component__title {
     background: var(--color-pink);
-    padding-left: 1em;
+    padding: 0.4em;
+    text-transform: uppercase;
     
 }
 
 .component__title--sub {
     background: var(--color-gray);
     font-weight: lighter;
+    text-transform: lowercase;
 }
 
 .component img {
