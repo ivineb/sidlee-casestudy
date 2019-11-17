@@ -93,6 +93,20 @@ img {
 * .component
 */
 
+.component-page {
+    margin: 4em;
+}
+.component__title {
+    background: var(--color-pink);
+    padding-left: 1em;
+    
+}
+
+.component__title--sub {
+    background: var(--color-gray);
+    font-weight: lighter;
+}
+
 .component img {
     max-width: initial;
 }
@@ -104,7 +118,7 @@ img {
 
 .component__code {
     border: 1px solid var(--color-pink);
-    padding-left: 2em;
+    padding-left: 0.3em;
 }
 
 .component__code h2 {
