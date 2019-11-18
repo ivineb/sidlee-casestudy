@@ -144,8 +144,9 @@ ul {
 * .cover-section
 */
 
-.cover-section__title {
-    margin-bottom: 0;
+h2.cover-section__title {
+    margin: 0;
+    padding: 0;
 }
 .cover-section__wrapper {
     display: flex;
