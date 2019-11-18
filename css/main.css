@@ -120,7 +120,10 @@ img {
     font-size: 2.2em;
     line-height: 1.2;
 }
-
+img{
+    max-width: 100%;
+    display: block;
+}
 /**
 * .main-header
 */
@@ -129,11 +132,9 @@ img {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-right: 5rem;
+    overflow: hidden;
 }
-.main-header__panel {
-    display: flex;
-}
+
 .main-header__list li {
     list-style: none;
     justify-content: center;
