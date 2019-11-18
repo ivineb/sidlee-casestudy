@@ -53,6 +53,9 @@ li {
 .action-button {
     margin: 0;
 }
+.centered-text {
+    text-align: center;
+}
 a {
     color: var(--color-black);
     text-decoration: none;
