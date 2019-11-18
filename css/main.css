@@ -42,7 +42,6 @@ li {
 }
 .copyright {
     color: var(--color-white);
-    border-bottom: none;
 }
 .button {
     font-size: 0.6em;
@@ -196,13 +195,14 @@ ul {
 }
 .social-list li, .legal-list li {
     margin-left: 0.9em;
-    border-bottom: 0.1em solid var(--color-white); 
 }
+.social-link, .legal-link {
+    border-bottom: 0.1em solid var(--color-white); 
+}  
 .page-footer__legal {
     display: flex;
     justify-content: flex-end; 
 }
-
 .legal-list,
 .social-list,
 .locations-list {
