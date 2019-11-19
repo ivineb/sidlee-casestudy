@@ -161,7 +161,16 @@ h2.cover-section__title {
 .cover-section__text--solo {
     padding: 0;
 }
-
+/**
+* .project-thumbnail
+*/
+.project__container {
+    margin: 2em;
+}
+.project__text {
+    font-size: 0.8rem;
+    padding-top: 0.5em;
+}
 /**
 * .page-footer
 */
