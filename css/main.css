@@ -180,15 +180,18 @@ h2.cover-section__title {
 /**
 ***** .subscribe-section
 */
+
+.subscribe-section__wrapper {
+    max-width: 1400px;
+}
 .subscribe-section__text {
-    font-size: 1.5em;
+    font-size: 1.8em;
     font-weight: 500;
 }
-
-
-
-
-
+.subscribe-section__button{
+    display: flex;
+    justify-content: flex-end;
+}
 
 
 /**
