@@ -63,7 +63,6 @@ li {
     background: black;
     color: white;
 }
-
 .centered-text {
     text-align: center;
 }
@@ -109,7 +108,6 @@ img {
     text-transform: lowercase;
     margin-top: 0;
 }
-
 .component__img {
     border: 1px solid var(--color-gray);
     overflow-x: auto;
@@ -117,9 +115,7 @@ img {
 .component__code {
     border: 1px solid var(--color-pink);
     margin-bottom: 4em;
-    padding-bottom: 0.5em;
-    
-    
+    padding-bottom: 0.5em;     
 }
 .component__code h2 {
     display: inline-block;
@@ -164,7 +160,6 @@ h2.cover-section__title {
 .cover-section__wrapper {
     display: flex;
     flex-direction: row;
-   
 }
 .cover-section__text {
     padding: 3em;
@@ -202,7 +197,6 @@ h2.cover-section__title {
 /**
 ***** .page-footer
 */
-
 .page-footer {
     font-size: 1.3em;
     background: var(--color-black);
