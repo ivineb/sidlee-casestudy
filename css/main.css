@@ -188,11 +188,10 @@ h2.cover-section__title {
     font-size: 1.8em;
     font-weight: 500;
 }
-.subscribe-section__button{
+.subscribe-section__button {
     display: flex;
     justify-content: flex-end;
 }
-
 
 /**
 ***** .page-footer
