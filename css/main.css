@@ -53,6 +53,12 @@ li {
 .action-button {
     margin: 0;
 }
+.button--subscribe {
+    border-bottom: none;
+    border: 0.125rem solid var(--color-black);
+    padding:  0.4375rem 1rem;
+    font-size: 0.8em;
+}
 .centered-text {
     text-align: center;
 }
@@ -146,7 +152,6 @@ ul {
 /**
 * .cover-section
 */
-
 h2.cover-section__title {
     margin: 0;
     padding: 0;
@@ -171,8 +176,23 @@ h2.cover-section__title {
     font-size: 0.8rem;
     padding-top: 0.5em;
 }
+
 /**
-* .page-footer
+***** .subscribe-section
+*/
+.subscribe-section__text {
+    font-size: 1.5em;
+    font-weight: 500;
+}
+
+
+
+
+
+
+
+/**
+***** .page-footer
 */
 
 .page-footer {
