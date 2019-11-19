@@ -104,9 +104,7 @@ img {
     text-transform: lowercase;
     margin-top: 0;
 }
-.component img {
-    max-width: initial;
-}
+
 .component__img {
     border: 1px solid var(--color-gray);
     overflow-x: auto;
@@ -115,6 +113,8 @@ img {
     border: 1px solid var(--color-pink);
     margin-bottom: 4em;
     padding-bottom: 0.5em;
+    
+    
 }
 .component__code h2 {
     display: inline-block;
@@ -126,7 +126,7 @@ img {
     font-size: 2.2em;
     line-height: 1.2;
 }
-img{
+img {
     max-width: 100%;
     display: block;
 }
@@ -137,13 +137,13 @@ img{
 .main-header__wrapper {
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    overflow: hidden;
+    justify-content: space-between;   
 }
 .main-header__list li {
     list-style: none;
     justify-content: center;
     margin: 1.2em; 
+    font-weight: 300;
 }
 ul { 
     padding: 0; 
@@ -159,6 +159,7 @@ h2.cover-section__title {
 .cover-section__wrapper {
     display: flex;
     flex-direction: row;
+   
 }
 .cover-section__text {
     padding: 3em;
