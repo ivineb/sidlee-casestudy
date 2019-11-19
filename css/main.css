@@ -59,6 +59,11 @@ li {
     padding:  0.4375rem 1rem;
     font-size: 0.8em;
 }
+.button--subscribe:hover {
+    background: black;
+    color: white;
+}
+
 .centered-text {
     text-align: center;
 }
