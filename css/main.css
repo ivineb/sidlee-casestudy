@@ -184,6 +184,33 @@ h2.cover-section__title {
 .cover-section__text--solo {
   padding: 0;
 }
+
+/**
+* .hero-section
+*/
+
+
+.hero-section__wrapper {
+  position: relative;
+  text-align: center;
+  display: inline-block;
+  width: 100%;
+}
+.hero__text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.hero__title {
+  font-size: 5rem;
+  font-weight: 400;
+}
+
+
+
+
+
 /**
 * .project-thumbnail
 */
