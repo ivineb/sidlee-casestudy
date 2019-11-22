@@ -74,9 +74,6 @@ img {
   max-width: 100%;
   display: block;
 }
-.block {
-  display: block;
-}
 .sid {
   font-family: var(--font-sans-serif);
   font-weight: 600;
@@ -138,12 +135,7 @@ img {
   display: inline-block;
   padding: 0.2em;
 }
-.hero__title {
-  font-family: var(--font-serif);
-  font-weight: bold;
-  font-size: 2.2em;
-  line-height: 1.2;
-}
+
 img {
   max-width: 100%;
   display: block;
@@ -152,21 +144,25 @@ img {
 * .main-header
 */
 
-.main-header__wrapper {
+.main-header__container {
   display: flex;
   align-items: center;
   justify-content: space-between;   
 }
+
 .main-header__list li {
   list-style: none;
   justify-content: center;
   margin: 1.2em; 
-  font-weight: 300;
+  font-weight: 300; 
+  font-size: 2vmin;
 }
 ul { 
-  padding: 0; 
   display: flex; 
+  padding: 0; 
 } 
+
+
 /**
 * .cover-section
 */
@@ -174,7 +170,7 @@ h2.cover-section__title {
   margin: 0;
   padding: 0;
 }
-.cover-section__wrapper {
+.cover-section__container {
   display: flex;
   flex-direction: row;
 }
@@ -189,30 +185,40 @@ h2.cover-section__title {
 * .hero-section
 */
 
-.hero-section__wrapper {
+.hero-section {
   position: relative;
   text-align: center;
-  display: inline-block;
-  width: 100%;
 }
-.hero__text {
+
+.hero-section__image {
   position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  z-index: -10;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
-.hero__title {
-  font-size: 5rem;
+.hero-section__text {
+padding: 2rem;
+}
+
+.hero-section__title {
+  margin: 0;
+  font-family: var(--font-serif);
+  font-weight: bold;
+  font-size: 4vmin;
+  line-height: 1.2;
   font-weight: 400;
 }
-
-
-/**
-* .project-thumbnail
-*/
-.project__container {
-  margin: 2em;
+/*
+@media (min-width: 50rem) {
+  .hero-section__title {
+    font-size: 3rem;
+  }
 }
+*/
+
 .project__text {
   font-size: 0.9rem;
   padding-top: 0.7em;
@@ -222,12 +228,9 @@ h2.cover-section__title {
 }
 
 /**
-***** .subscribe-section
+** .subscribe-section
 */
 
-.subscribe-section__wrapper {
-  max-width: 1400px;
-}
 .subscribe-section__text {
   font-size: 1.8em;
   font-weight: 500;
@@ -238,8 +241,9 @@ h2.cover-section__title {
 }
 
 /**
-***** .page-footer
+** .page-footer
 */
+
 .page-footer {
   font-size: 1.3em;
   background: var(--color-black);
@@ -253,9 +257,11 @@ h2.cover-section__title {
   display: flex;
   justify-content: space-between;
 }
+
 /**
 * .cities
 */
+
 .page-footer__cities {
   margin-left: 4em;
 }
@@ -263,9 +269,11 @@ h2.cover-section__title {
   padding: 0.6em;
   font-family: var(--font-serif);
 }
+
 /**
 * .social-legal
 */
+
 .page-footer__social, .page-footer__legal {
   font-size: 0.5em;
   margin-right: 9em;
