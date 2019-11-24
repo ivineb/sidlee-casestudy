@@ -74,23 +74,69 @@ img {
   max-width: 100%;
   display: block;
 }
+
+.logo { 
+  font-size: 1.4em;
+  font-weight: bold;
+}
 .sid {
   font-family: var(--font-sans-serif);
   font-weight: 600;
-  font-size: 1.3em;
 }
 .lee {
   font-family: var(--font-serif);
-  font-size: 1.3em;
-  font-weight: bold;
 }
+
+
 /**
-* .component
+*  layout
 */
 
+
 .component-page {
-  margin: 4em;
+ display: block;
 }
+.component-page__header {
+  position: fixed;
+  width: 100%;
+  z-index: 100;
+  top: 0;
+  left: 0;
+}
+.component-page__main {
+  margin-left: 12em;
+}
+.component-page__nav, .sidebar-nav__list {
+  display: flex;
+  flex-direction: column;
+}
+
+/**
+* .component-page__nav
+*/
+
+.component-page__header-container {
+  background: var(--color-pink);
+  position: static;
+  padding: 1rem 2rem;
+  max-width: 250px;
+}
+.sidebar-nav__heading {
+  text-transform: uppercase;
+  font-size: 0.9em;
+  font-weight: 500;
+}
+.sidebar-nav__list {
+  font-size: 0.7em;
+  padding: 0;
+}
+
+
+/**
+* .component-code
+*/
+
+
 .component__title {
   background: var(--color-black);
   color: var(--color-white);

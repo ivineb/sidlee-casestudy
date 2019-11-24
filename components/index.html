@@ -13,143 +13,211 @@
     <body class="component-page">
 
       <header class="component-page__header">
-        <h1 class="header-title">sidlee Web Components</h1>
-      
+       
+        <div class="component-page__header-container">
+          <h1 class="logo">
+              <span class="sid">sid</span><span class="lee">lee</span>
+          </h1>
+        
+
+        <nav class="component-page__nav">
+
+          <section class="sidebar-nav__section">
+            <h2 class="sidebar-nav__heading">
+              <a href="#typography">Typography</a>
+            </h2>
+            <ul class="sidebar-nav__list">
+              <li><a href="#typography">body</a></li>
+              <li><a href="#headings">headings</a></li>
+              <li><a href="#links">a</a></li>
+            </ul>
+          </section>
+
+          <section class="sidebar-nav__section">
+            <h2 class="sidebar-nav__heading">
+              <a href="#atoms">Atoms</a>
+            </h2>
+            <ul class="sidebar-nav__list">
+              <li><a href="#logo">logo</a></li>
+              <li><a href="#section-heading">section heading</a></li>
+            </ul>
+          </section>
+
+          <section class="sidebar-nav__section">
+            <h2 class="sidebar-nav__heading">
+              <a href="#page-header">Page Header</a>
+            </h2>
+            <ul class="sidebar-nav__list">
+              <li><a href="#main-nav">main nav</a></li>
+              <li><a href="#main-nav__list">main nav list</a></li>
+            </ul>
+          </section>
+
+          <section class="sidebar-nav__section">
+            <h2 class="sidebar-nav__heading">
+              <a href="#hero-section">Hero Section</a>
+            </h2>
+            <ul class="sidebar-nav__list">
+              <li><a href="#hero-section">hero section</a></li>
+            </ul>
+          </section>
+
+          <section class="sidebar-nav__section">
+            <h2 class="sidebar-nav__heading">
+              <a href="#cover-section">Cover Section</a>
+            </h2>
+            <ul class="sidebar-nav__list">
+              <li><a href="#cover-section">cover section</a></li>
+              <li><a href="#cover-section__contents">cover section contents</a></li>
+              <li><a href="#project-thumbnail">project thumbnail</a></li>
+            </ul>
+          </section>
+
+          <section class="sidebar-nav__section">
+            <h2 class="sidebar-nav__heading">
+              <a href="#subscribe-section">Subscribe Section</a>
+            </h2>
+            <ul class="sidebar-nav__list">
+              <li><a href="#subscribe-section">subscribe section</a></li>
+            </ul>
+          </section>
+
+          <section class="sidebar-nav__section">
+            <h2 class="sidebar-nav__heading">
+              <a href="#page-footer">Page Footer</a>
+            </h2>
+            <ul class="sidebar-nav__list">
+              <li><a href="#page-footer">page footer</a></li>
+              <li><a href="#cities-links">cities links</a></li>
+              <li><a href="#socia-links">social links</a></li>
+              <li><a href="#legal">legal</a></li>
+            </ul>
+          </section>
+        </nav>
+        </div>
       </header>
 
-      <h2 class="component__title"> Typography</h2>
-
-      <article class="component">
-        <h3 class="component__title component__title--sub">Body</h3>
-        <div class="component__img">
-          <img 
-          srcset="img/case-sutyd-text.png 1.2x"
-          src="img/case-sutyd-text.png"
-          alt ="body copy"
-          />
-        </div>
-        <div class="component__code">
-          <p>The North Face wanted to push the boundaries of what it means to be an outdoor brand and showcase <a class="button button--bigger" href="#!">FUTURELIGHT</a>, its newest and most advanced breathable-waterproof material made with nanospinning technology. Tested in the world’s toughest conditions, FUTURELIGHT is the first of its kind: waterproof gear that feels so soft it’s like a second skin, breathes as hard as you do, and defies what a breathable-waterproof fabric can be.
+      <section class="component-page__main">
+          <h1 class="header-title">sidlee Web Components</h1>
+          <p>
+              This is a collection of components based on my study of the design
+              system of the
+              <a href="https://sidlee.com/en">sidlee</a> website.
           </p>
-        </div>
-      </article>
 
-      <article class="component">
-          <h3 class="component__title component__title--sub">headings (h1, h2,..)</h3>
-          <div class="component__img">
-            <img 
-            srcset="img/hero-section.png 2x"
-            src="img/hero-section.png"
-            alt ="h1 copy"
-            />
-            <img 
-            srcset="img/h3.png 2x"
-            src="img/h3.png"
-            alt ="h3 copy"
-            />
-          </div>
+        <section class="page-section" id="typography">
 
-          <div class="component__code">
-            <h1>We are a collective of brand builders for the future.
-            </h1>
-            <h3 class="centered-text">Our goal is to change the world through creativity</h3>
-          </div>
-        </article>
+          <h2 class="component__title"> Typography</h2>
 
-        <article class="component">
-            <h3 class="component__title component__title--sub">links</h3>
+          <article class="component">
+            <h3 class="component__title component__title--sub">Body</h3>
             <div class="component__img">
               <img 
-             
-              src="img/action-link.png"
-              alt ="link image"
+              srcset="img/case-sutyd-text.png 1.2x"
+              src="img/case-sutyd-text.png"
+              alt ="body copy"
               />
             </div>
-  
             <div class="component__code">
-                <p class="action-button"><a href="#!" class="button">View case study</a></p>
+              <p>The North Face wanted to push the boundaries of what it means to be an outdoor brand and showcase <a class="button button--bigger" href="#!">FUTURELIGHT</a>, its newest and most advanced breathable-waterproof material made with nanospinning technology. Tested in the world’s toughest conditions, FUTURELIGHT is the first of its kind: waterproof gear that feels so soft it’s like a second skin, breathes as hard as you do, and defies what a breathable-waterproof fabric can be.
+              </p>
             </div>
           </article>
 
-        <h2 class="component__title"> Atoms</h2>
+          <article class="component">
+              <h3 class="component__title component__title--sub">headings (h1, h2,..)</h3>
+              <div class="component__img">
+                <img 
+                srcset="img/hero-section.png 2x"
+                src="img/hero-section.png"
+                alt ="h1 copy"
+                />
+                <img 
+                srcset="img/h3.png 2x"
+                src="img/h3.png"
+                alt ="h3 copy"
+                />
+              </div>
 
-        <article class="component">
-          <h3 class="component__title component__title--sub">Logo</h3>
-          <div class="component__img">
-            <img 
-            src="img/logo.png"
-            alt ="logo image"
-            />
-          </div>
+              <div class="component__code">
+                <h1>We are a collective of brand builders for the future.
+                </h1>
+                <h3 class="centered-text">Our goal is to change the world through creativity</h3>
+              </div>
+            </article>
 
-          <div class="component__code">
-            <span class="sid">sid</span><span class="lee">lee</span>
-          </div>
-        
-        </article>
+            <article class="component">
+                <h3 class="component__title component__title--sub">links</h3>
+                <div class="component__img">
+                  <img 
+                
+                  src="img/action-link.png"
+                  alt ="link image"
+                  />
+                </div>
+      
+                <div class="component__code">
+                    <p class="action-button"><a href="#!" class="button">View case study</a></p>
+                </div>
+              </article>
+        </section>
 
-        <article class="component">
-          <h3 class="component__title component__title--sub">Section Heading</h3>
-          <div class="component__img">
-            <img 
-            srcset="img/hero-section.png 2x"
-            src="img/hero-section.png"
-            alt ="section heading image"
-            />
-          </div>
+        <section class="page-section" id="atoms">
 
-          <div class="component__code">
-            <h2 class="hero-section__title">We are a collective of brand builders for the future.
-          </h2>
-          </div>
-        </article>
+          <h2 class="component__title"> Atoms</h2>
 
-        <h2 class="component__title"> Page Header</h2>
+          <article class="component">
+            <h3 class="component__title component__title--sub">Logo</h3>
+            <div class="component__img">
+              <img 
+              src="img/logo.png"
+              alt ="logo image"
+              />
+            </div>
 
-        <article class="component">
-          <h3 class="component__title component__title--sub">Main Nav</h3>
-          <div class="component__img">
-            <img 
-            src="img/header.png"
-            alt ="page header image"
-            />
-          </div>
-
-          <div class="component__code">
-
-            <div class="main-header__container">
-
-            <div class="sidlee-logo">
+            <div class="component__code">
               <span class="sid">sid</span><span class="lee">lee</span>
             </div>
           
-            <ul class="main-header__list">
-              <li><a href="#!">work</a></li>
-              <li><a href="#!">about</a></li>
-              <li><a href="#!">stories</a></li>
-              <li><a href="#!">services</a></li>
-              <li><a href="#!">careers</a></li>
-              <li><a href="#!">meet us</a></li>
-              <li><a href="#!">fr</a></li>
-            </ul>
-        
-          </div>
+          </article>
 
-        </div>
-        </article>
-
-        <article class="component">
-            <h3 class="component__title component__title--sub">Main Nav List</h3>
+          <article class="component">
+            <h3 class="component__title component__title--sub">Section Heading</h3>
             <div class="component__img">
               <img 
-              src="img/main-nav-list.png"
-              alt ="main nav list pic"
+              srcset="img/hero-section.png 2x"
+              src="img/hero-section.png"
+              alt ="section heading image"
               />
             </div>
-  
+
             <div class="component__code">
-  
-            <nav class="main-header__panel">
+              <h2 class="hero-section__title">We are a collective of brand builders for the future.
+            </h2>
+            </div>
+          </article>
+        </section>
+
+        <section class="page-section" id="page-header">
+        <h2 class="component__title"> Page Header</h2>
+
+          <article class="component">
+            <h3 class="component__title component__title--sub">Main Nav</h3>
+            <div class="component__img">
+              <img 
+              src="img/header.png"
+              alt ="page header image"
+              />
+            </div>
+
+            <div class="component__code">
+
+              <div class="main-header__container">
+
+              <div class="sidlee-logo">
+                <span class="sid">sid</span><span class="lee">lee</span>
+              </div>
+            
               <ul class="main-header__list">
                 <li><a href="#!">work</a></li>
                 <li><a href="#!">about</a></li>
@@ -159,12 +227,40 @@
                 <li><a href="#!">meet us</a></li>
                 <li><a href="#!">fr</a></li>
               </ul>
-            </nav>
-  
+          
             </div>
-        </article>
 
+          </div>
+          </article>
 
+          <article class="component">
+              <h3 class="component__title component__title--sub">Main Nav List</h3>
+              <div class="component__img">
+                <img 
+                src="img/main-nav-list.png"
+                alt ="main nav list pic"
+                />
+              </div>
+    
+              <div class="component__code">
+    
+              <nav class="main-header__panel">
+                <ul class="main-header__list">
+                  <li><a href="#!">work</a></li>
+                  <li><a href="#!">about</a></li>
+                  <li><a href="#!">stories</a></li>
+                  <li><a href="#!">services</a></li>
+                  <li><a href="#!">careers</a></li>
+                  <li><a href="#!">meet us</a></li>
+                  <li><a href="#!">fr</a></li>
+                </ul>
+              </nav>
+    
+              </div>
+          </article>
+      </section>
+
+      <section class="page-section" id="hero-section">
         <h2 class="component__title"> Hero Section</h2>
 
         <article class="component">
@@ -197,9 +293,11 @@
 
             </div>
           
-            
         </article>
+      </section>
 
+
+      <section class="page-section" id="cover-section">
         <h2 class="component__title"> Cover Section</h2>
 
         <article class="component">
@@ -288,7 +386,9 @@
 
           </div>
       </article>
+    </section>
 
+    <section class="page-section" id="subscribe-section">
       <h2 class="component__title"> Subscribe Section</h2>
 
       <article class="component">
@@ -314,10 +414,9 @@
           </div>
   
       </article>
+    </section>
 
-
-
-
+    <section class="page-section" id="page-footer">
         <h2 class="component__title"> Page Footer</h2>
 
         <article class="component">
@@ -446,8 +545,9 @@
         </div>
       </div>
     </article>
+  </section>
+  </section>
 
-      
 
     </body>
     </html>
