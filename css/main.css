@@ -352,3 +352,11 @@ max-width: 75rem;
   margin: 0;
   line-height: 1.2;
 }
+
+
+/*main web
+*/
+.project-section {
+display: grid;
+grid-template-columns: 720px 720px;
+}
