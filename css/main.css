@@ -221,6 +221,9 @@ h2.cover-section__title {
 .cover-section__text--solo {
   padding: 0;
 }
+.section__title {
+  font-size: 2.66rem;
+}
 
 /**
 * .hero-section
@@ -242,6 +245,8 @@ h2.cover-section__title {
 }
 .hero-section__text {
 padding: 2rem;
+max-width: 75rem;
+
 }
 
 .hero-section__title {
@@ -252,6 +257,17 @@ padding: 2rem;
   line-height: 1.2;
   font-weight: 400;
 }
+
+/** hero section for main website here
+*/
+
+.hero-section__title--main {
+  font-size: 9vmin;
+}
+
+
+
+
 /*
 @media (min-width: 50rem) {
   .hero-section__title {
