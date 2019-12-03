@@ -259,15 +259,6 @@ max-width: 75rem;
   font-weight: 400;
 }
 
-/** hero section for main website here
-*/
-
-.hero-section__title--main {
-  font-size: 9vmin;
-}
-
-
-
 
 /*
 @media (min-width: 50rem) {
@@ -355,9 +346,28 @@ max-width: 75rem;
 }
 
 
-/*main web
+/*main-page
 */
 .project-section {
 display: grid;
 grid-template-columns: 720px 720px;
+}
+.section-services {
+  background: var(--color-pink);
+  padding: 10em;
+}
+.cover-section__text--ourstory {
+  max-width: 35rem;
+}
+.hero-section__title--main {
+  font-size: 9vmin;
+}
+
+/*main-page-layout
+*/
+.main-page {
+  margin: 0 15rem;
+}
+.page-section {
+  margin-bottom: 6em;
 }
