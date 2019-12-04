@@ -311,9 +311,7 @@ max-width: 75rem;
 * .cities
 */
 
-.page-footer__cities {
-  margin-left: 4em;
-}
+
 .locations-list li {
   padding: 0.6em;
   font-family: var(--font-serif);
@@ -325,7 +323,6 @@ max-width: 75rem;
 
 .page-footer__social, .page-footer__legal {
   font-size: 0.5em;
-  margin-right: 9em;
   align-self: center;
 }
 .social-list li, .legal-list li {
@@ -365,8 +362,11 @@ grid-template-columns: 720px 720px;
 
 /*main-page-layout
 */
-.main-page__container {
+.main-page__container, .main-header__container {
   margin: 0 15rem;
+}
+.main-page {
+  margin: 0;
 }
 .page-section {
   margin-bottom: 6em;
@@ -408,7 +408,8 @@ h3.news__title {
 .subscribe-section {
   background: var(--color-pink);
 }
-.subscribe-section__container {
+.subscribe-section__container, .page-footer-nav {
   margin: 0 15rem;
-  padding: 3em 0;
+  padding: 1em 0;
+  
 }
