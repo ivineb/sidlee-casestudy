@@ -365,7 +365,7 @@ grid-template-columns: 720px 720px;
 
 /*main-page-layout
 */
-.main-page {
+.main-page__container {
   margin: 0 15rem;
 }
 .page-section {
@@ -404,4 +404,11 @@ h3.news__title {
 }
 .recent-news__line {
   padding-bottom: 3em;
+}
+.subscribe-section {
+  background: var(--color-pink);
+}
+.subscribe-section__container {
+  margin: 0 15rem;
+  padding: 3em 0;
 }
