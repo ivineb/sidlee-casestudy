@@ -269,9 +269,12 @@ h2.cover-section__title {
 */
 
 .project__text {
-  font-size: 0.9rem;
+  font-size: 1rem;
   padding-top: 0.7em;
+  font-weight: 200;
+  margin-top: 0.5em;
 }
+
 .project__image {
   cursor: url("https://img.icons8.com/ios/50/000000/long-arrow-right.png"), auto;
 }
@@ -311,7 +314,6 @@ h2.cover-section__title {
 * .cities
 */
 
-
 .locations-list li {
   padding: 0.6em;
   font-family: var(--font-serif);
@@ -343,11 +345,14 @@ h2.cover-section__title {
 }
 
 
-/*main-page
+/*******main-homepage
 */
 .project-section {
 display: grid;
-grid-template-columns: 720px 720px;
+grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+}
+.project__container {
+  margin-bottom: 1.5em;
 }
 .section-services {
   background: var(--color-pink);
@@ -366,6 +371,7 @@ grid-template-columns: 720px 720px;
 .projects-intro {
   text-align: center;
 }
+
 /*main-page-layout
 */
 .main-page__container, .main-header__container {
@@ -375,7 +381,7 @@ grid-template-columns: 720px 720px;
   margin: 0;
 }
 .page-section {
-  margin-bottom: 6em;
+  margin-bottom: 7em;
 }
 
 .visually-hidden { 
@@ -440,5 +446,4 @@ h3.news__title {
 .subscribe-section__container, .page-footer-nav {
   margin: 0 15rem;
   padding: 1em 0;
-  
 }
