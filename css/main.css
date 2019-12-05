@@ -233,7 +233,6 @@ h2.cover-section__title {
 .hero-section {
   position: relative;
 }
-
 .hero-section__image {
   position: absolute;
   z-index: -10;
@@ -247,7 +246,6 @@ h2.cover-section__title {
   padding: 2rem;
   max-width: 75rem;
 }
-
 .hero-section__title {
   margin: 0;
   font-family: var(--font-serif);
@@ -271,7 +269,6 @@ h2.cover-section__title {
   font-weight: 200;
   margin-top: 0.5em;
 }
-
 .project__image {
   cursor: url("https://img.icons8.com/ios/50/000000/long-arrow-right.png"), auto;
 }
