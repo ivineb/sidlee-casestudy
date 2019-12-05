@@ -96,14 +96,11 @@ img {
 *  layout
 */
 
-
 .component-page {
   display: grid;
   grid-template-columns: 200px 1fr;
   grid-gap: 1.8em;
 }
-
-
 
 /**
 * .component-page__nav
@@ -344,12 +341,14 @@ h2.cover-section__title {
   line-height: 1.2;
 }
 
+/********************/
 
-/*******main-homepage
+
+/*** main-homepage
 */
 .project-section {
-display: grid;
-grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
 }
 .project__container {
   margin-bottom: 1.5em;
