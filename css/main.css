@@ -93,7 +93,7 @@ img {
 
 
 /**
-*  layout
+*  component-page__layout
 */
 
 .component-page {
@@ -128,7 +128,7 @@ img {
 
 
 /**
-* .component
+* .component-page__sections
 */
 
 
@@ -183,7 +183,7 @@ img {
 }
 
 /**
-* .main-header
+* .component-page__main-header
 */
 
 .main-header__container {
@@ -206,7 +206,7 @@ ul {
 
 
 /**
-* .cover-section
+* .component-page__cover-section
 */
 h2.cover-section__title {
   margin: 0;
@@ -227,7 +227,7 @@ h2.cover-section__title {
 }
 
 /**
-* .hero-section
+* .component-page__hero-section
 */
 
 .hero-section {
@@ -277,7 +277,7 @@ h2.cover-section__title {
 }
 
 /**
-** .subscribe-section
+** .component-page__subscribe-section
 */
 
 .subscribe-section__text {
@@ -290,7 +290,7 @@ h2.cover-section__title {
 }
 
 /**
-** .page-footer
+** .component-page__footer
 */
 
 .page-footer {
@@ -344,7 +344,7 @@ h2.cover-section__title {
 /********************/
 
 
-/*** main-homepage
+/*** main-page__home
 */
 .project-section {
   display: grid;
@@ -371,7 +371,7 @@ h2.cover-section__title {
   text-align: center;
 }
 
-/*main-page-layout
+/*main-page__layout
 */
 .main-page__container, .main-header__container {
   margin: 0 15rem;
