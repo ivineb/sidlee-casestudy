@@ -9,7 +9,7 @@ and the creation of a simple component library from our study.
 <ul>
   <li><a href="https://github.com/ivineb/sidlee-casestudy/blob/master/assets/sidlee-web-study.png">Initial Design Study</a></li>
   <li><a href="https://ivineb.github.io/sidlee-casestudy/components">Component Library</a></li>
-  <li><a href="https://ivineb.github.io/sidlee-casestudy/">Homepage Recreation (coming soon!)</a></li>
+  <li><a href="https://ivineb.github.io/sidlee-casestudy/">Homepage Recreation (a work in progress!)</a></li>
  </ul>
 
 ## Author
