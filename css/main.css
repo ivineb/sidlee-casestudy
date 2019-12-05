@@ -54,6 +54,9 @@ li {
   margin: 0;
   font-size: 1.5rem;
 }
+.action-button--right {
+  text-align: right;
+}
 .button--subscribe {
   border-bottom: none;
   border: 0.125rem solid var(--color-black);
@@ -349,6 +352,7 @@ grid-template-columns: 720px 720px;
 .section-services {
   background: var(--color-pink);
   padding: 10em;
+  text-align: center;
 }
 .cover-section__text--ourstory {
   max-width: 35rem;
@@ -359,7 +363,9 @@ grid-template-columns: 720px 720px;
 .hero-section {
   margin-top: 2em;
 }
-
+.projects-intro {
+  text-align: center;
+}
 /*main-page-layout
 */
 .main-page__container, .main-header__container {
@@ -425,7 +431,7 @@ h3.news__title {
   font-family: var(--font-serif);
 }
 
-/****.subscribe-section
+/****.subscribe-news
 */
 
 .subscribe-section {
