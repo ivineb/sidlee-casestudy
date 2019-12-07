@@ -78,7 +78,6 @@ img {
   max-width: 100%;
   display: block;
 }
-
 .logo { 
   font-size: 1.4em;
   font-weight: bold;
@@ -208,6 +207,7 @@ ul {
 /**
 * .component-page__cover-section
 */
+
 h2.cover-section__title {
   margin: 0;
   padding: 0;
@@ -269,9 +269,11 @@ h2.cover-section__title {
   font-weight: 200;
   margin-top: 0.5em;
 }
+
 .project__image {
   cursor: url("https://img.icons8.com/ios/50/000000/long-arrow-right.png"), auto;
 }
+
 
 /**
 ** .component-page__subscribe-section
@@ -338,11 +340,14 @@ h2.cover-section__title {
   line-height: 1.2;
 }
 
-/********************/
+/*********-***********/
 
 
 /*** main-page__home
 */
+.projects-intro {
+  text-align: center;
+}
 .project-section {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
@@ -364,9 +369,11 @@ h2.cover-section__title {
 .hero-section {
   margin-top: 2em;
 }
-.projects-intro {
-  text-align: center;
+.news__title:hover {
+  border-bottom: 1px solid var(--color-black);
+
 }
+
 
 /*main-page__layout
 */
@@ -433,7 +440,7 @@ h3.news__title {
   font-family: var(--font-serif);
 }
 
-/****.subscribe-news
+/****.subscribe-section
 */
 
 .subscribe-section {
