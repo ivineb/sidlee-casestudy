@@ -62,10 +62,12 @@ li {
   border: 0.125rem solid var(--color-black);
   padding:  0.4375rem 1rem;
   font-size: 0.8em;
+  transition: background-color .5s;
 }
 .button--subscribe:hover {
-  background: var(--color-black);
+  background-color: var(--color-black);
   color: var(--color-white);
+
 }
 .centered-text {
   text-align: center;
@@ -80,7 +82,6 @@ img {
 }
 .logo { 
   font-size: 1.4em;
-  font-weight: bold;
 }
 .sid {
   font-family: var(--font-sans-serif);
@@ -89,7 +90,6 @@ img {
 .lee {
   font-family: var(--font-serif);
 }
-
 
 /**
 *  component-page__layout
@@ -211,6 +211,7 @@ ul {
 h2.cover-section__title {
   margin: 0;
   padding: 0;
+  
 }
 .cover-section__container {
   display: flex;
@@ -219,6 +220,7 @@ h2.cover-section__title {
 .cover-section__text {
   padding: 3em;
 }
+
 .cover-section__text--solo {
   padding: 0;
 }
@@ -371,9 +373,7 @@ h2.cover-section__title {
 }
 .news__title:hover {
   border-bottom: 1px solid var(--color-black);
-
 }
-
 
 /*main-page__layout
 */
@@ -381,7 +381,7 @@ h2.cover-section__title {
   margin: 0 15rem;
 }
 .main-page {
-  margin: 0;
+  margin: 0 auto;
 }
 .page-section {
   margin-bottom: 7em;
@@ -463,3 +463,8 @@ h3.news__title {
   margin: 0 15rem;
   padding: 1em 0;
 }
+
+
+
+/**** MEDIA-QUERIES *****/
+
