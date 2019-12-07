@@ -397,6 +397,7 @@ h2.cover-section__title {
   white-space: nowrap; /* added line */
 }
 
+
 /****.recent-news
 */
 
@@ -415,8 +416,19 @@ h2.cover-section__title {
 /**.recent-news-list
 */
 
+.img {
+  display: none;
+}
+h3.news__title:hover img{
+  display: inline-block;
+  position: absolute;
+  z-index: -1;
+  transform: translate(-50%, -50%);
+  left: 30%;
+}
 .recent-news__line {
-  padding-bottom: 3em;
+  padding-bottom: 4.3em;
+  position: relative;
 }
 .recent-news__line h3.news__title {
   display: inline;
