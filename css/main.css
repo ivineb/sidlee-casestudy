@@ -216,14 +216,13 @@ h2.cover-section__title {
   display: grid;
   align-items: center;
   grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-  
 }
 
 .projects-intro {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  width: 100%;
+  
 }
 .cover-section__text {
   line-height: 1.2;
