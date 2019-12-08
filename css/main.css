@@ -189,7 +189,6 @@ img {
   display: flex;
   align-items: center;
   justify-content: space-between;  
-  
 }
 
 .main-header__list li {
@@ -227,11 +226,10 @@ h2.cover-section__title {
   line-height: 1.2;
 }
 
-.cover-section__text--solo {
-  padding: 0;
-}
 .section__title {
   font-size: 2.8rem;
+  max-width: 54rem;
+  margin: 0 auto;
 }
 
 /**
