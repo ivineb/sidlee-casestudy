@@ -488,25 +488,11 @@ h3.news__title {
   white-space: nowrap; /* added line */
 }
 
-
-@media only screen and (max-width: 768px) {
-  header,
-  .hero-section,
-  .media-section,
-  .projects-intro,
-  .section-services,
-  .project__container,
-  .cover-section__text--ourstory,
-  .cover-section__image,
-  .page-footer,
-  .page-footer-nav,
-  .page-footer__links {
-    width: 766px;
-    margin: 0 auto;
+/*
+@media only screen and (max-width: 470px) {
+ 
   }
-   .recent-news__text,
-   .recent-news__list {
-     width: 700px;
+   
      
    }
   
@@ -514,3 +500,4 @@ h3.news__title {
  
   
 }
+*/
