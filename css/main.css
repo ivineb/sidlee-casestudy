@@ -216,11 +216,7 @@ h2.cover-section__title {
   display: grid;
   align-items: center;
   grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-  /*
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-  grid-gap: 1.6em;
-  */
+  
 }
 
 .projects-intro {
