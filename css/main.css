@@ -45,14 +45,14 @@ li {
 }
 .button {
   font-size: 0.6em;
-  border-bottom: 0.1em solid var(--color-black);
+  border-bottom: 1px solid var(--color-black);
 }
 .button--bigger {
   font-size: 1em;
 }
 .action-button {
   margin: 0;
-  font-size: 1.5rem;
+  font-size: 1.7rem;
 }
 .action-button--right {
   text-align: right;
@@ -188,7 +188,8 @@ img {
 .main-header__container {
   display: flex;
   align-items: center;
-  justify-content: space-between;   
+  justify-content: space-between;  
+  
 }
 
 .main-header__list li {
@@ -211,21 +212,26 @@ ul {
 h2.cover-section__title {
   margin: 0;
   padding: 0;
-  
 }
 .cover-section__container {
-  display: flex;
-  flex-direction: row;
+  display: grid;
+  align-items: center;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  /*
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  grid-gap: 1.6em;
+  */
 }
 .cover-section__text {
-  padding: 3em;
+  line-height: 1.2;
 }
 
 .cover-section__text--solo {
   padding: 0;
 }
 .section__title {
-  font-size: 2.66rem;
+  font-size: 2.8rem;
 }
 
 /**
@@ -246,24 +252,26 @@ h2.cover-section__title {
 }
 .hero-section__text {
   padding: 2rem;
-  max-width: 75rem;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
 }
 .hero-section__title {
   margin: 0;
   font-family: var(--font-serif);
   font-weight: bold;
   font-size: 4vmin;
+  /*font-size: calc(26px + 4vw);*/
   line-height: 1.2;
   font-weight: 400;
 }
-
-/*
-@media (min-width: 50rem) {
-  .hero-section__title {
-    font-size: 3rem;
-  }
+.hero-section__sub {
+  font-size: 1.3em;
 }
-*/
+
+
+/* Projects */
+
 
 .project__text {
   font-size: 1rem;
@@ -342,65 +350,13 @@ h2.cover-section__title {
   line-height: 1.2;
 }
 
-/*********-***********/
-
-
-/*** main-page__home
-*/
-.projects-intro {
-  text-align: center;
-}
-.project-section {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
-}
-.project__container {
-  margin-bottom: 1.5em;
-}
-.section-services {
-  background: var(--color-pink);
-  padding: 10em;
-  text-align: center;
-}
-.cover-section__text--ourstory {
-  max-width: 35rem;
-}
-.hero-section__title--main {
-  font-size: 9vmin;
-}
-.hero-section {
-  margin-top: 2em;
-}
-.news__title:hover {
-  border-bottom: 1px solid var(--color-black);
-}
-
-/*main-page__layout
-*/
-.main-page__container, .main-header__container {
-  margin: 0 15rem;
-}
-.main-page {
-  margin: 0 auto;
-}
-.page-section {
-  margin-bottom: 7em;
-}
-
-.visually-hidden { 
-  position: absolute !important;
-  height: 1px; 
-  width: 1px;
-  overflow: hidden;
-  clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
-  clip: rect(1px, 1px, 1px, 1px);
-  white-space: nowrap; /* added line */
-}
 
 
 /****.recent-news
 */
-
+.news__title:hover {
+  border-bottom: 1px solid var(--color-black);
+}
 .recent-news__text {
   text-align: center;
   margin-bottom: 6em;
@@ -412,6 +368,7 @@ h2.cover-section__title {
 .recent-news__light {
   font-weight: 200;
 }
+
 
 /**.recent-news-list
 */
@@ -458,6 +415,9 @@ h3.news__title {
 
 .subscribe-section {
   background: var(--color-pink);
+  display: flex;
+  flex: 1 1 20em;
+  
 }
 .subscribe-section__container, .page-footer-nav {
   margin: 0 15rem;
@@ -465,6 +425,83 @@ h3.news__title {
 }
 
 
+/******** Main Page*********/
 
-/**** MEDIA-QUERIES *****/
 
+/*** main-page__home
+*/
+.projects-intro {
+  text-align: center;
+}
+.project-section {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+
+}
+.project__container {
+  margin-bottom: 1.5em;
+}
+
+
+.section-services {
+  display: flex;
+  flex-direction: column;
+  background: var(--color-pink);
+  padding: 10em;
+  text-align: center;
+}
+
+
+/*
+.our-services {
+  background: var(--color-pink);
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  padding: 10em;
+  text-align: center;
+}
+*/
+
+.section__title--services {
+  font-size: 5vmin;
+}
+
+.cover-section__text--ourstory {
+  max-width: 35rem;
+}
+.hero-section__title--main {
+  font-size: 9vmin;
+}
+.hero-section {
+  margin-top: 2em;
+}
+
+
+/*main-page__layout
+*/
+.grid-container {
+ 
+}
+.main-page {
+  margin: 0 auto;
+}
+.main-page__container, .main-header__container {
+  margin: 0 15rem;
+}
+.page-section {
+  margin-bottom: 7em;
+}
+.recent-news__list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(850px, 1fr));
+}
+
+.visually-hidden { 
+  position: absolute !important;
+  height: 1px; 
+  width: 1px;
+  overflow: hidden;
+  clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
+  clip: rect(1px, 1px, 1px, 1px);
+  white-space: nowrap; /* added line */
+}
