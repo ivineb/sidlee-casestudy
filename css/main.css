@@ -222,14 +222,18 @@ h2.cover-section__title {
   grid-gap: 1.6em;
   */
 }
+
+.projects-intro {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+}
 .cover-section__text {
   line-height: 1.2;
 }
-
 .section__title {
   font-size: 2.8rem;
-  
-  
 }
 
 /**
